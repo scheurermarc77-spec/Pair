@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#111111" />
+  <title>PAIR – Socken, die zusammenbleiben</title>
+  <meta name="description" content="PAIR: Premium-Socken mit integriertem 9-mm-Druckknopf. Ausziehen, zusammenklicken, waschen, trocknen – nie wieder Socken sortieren." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="PAIR Startseite">PAIR<span class="dot">.</span></a>
+    <nav class="nav">
+      <a href="#idee">Die Idee</a>
+      <a href="#produkt">Shop</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <button class="cart-button" id="cartButton" aria-label="Warenkorb öffnen">
+      Warenkorb <span id="cartCount">0</span>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">NEU GEDACHT. EINFACH GELÖST.</span>
+        <h1>Nie wieder<br>Socken sortieren.</h1>
+        <p class="hero-text">PAIR verbindet jedes Sockenpaar mit einem kleinen 9-mm-Druckknopf. Nach dem Ausziehen einfach zusammenklicken – und das Paar bleibt beim Waschen, Trocknen und Versorgen zusammen.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#produkt">Jetzt entdecken</a>
+          <a class="secondary-button" href="#idee">So funktioniert's</a>
+        </div>
+        <div class="mini-proof">
+          <span>✓ 9-mm-Verschluss</span>
+          <span>✓ Waschbar</span>
+          <span>✓ Kein Sortieren</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Illustration von PAIR Socken">
+        <div class="sock sock-left"><span class="snap snap-female"></span></div>
+        <div class="sock sock-right"><span class="snap snap-male"></span></div>
+        <div class="click-badge">CLICK</div>
+      </div>
+    </section>
+
+    <section class="problem-section" id="idee">
+      <div>
+        <span class="eyebrow">EIN KLEINES ALLTAGSPROBLEM</span>
+        <h2>Zwei Socken.<br>Ein Paar. Immer.</h2>
+      </div>
+      <div class="steps">
+        <article><span>01</span><h3>Ausziehen</h3><p>Die beiden getragenen Socken bleiben direkt als Paar beieinander.</p></article>
+        <article><span>02</span><h3>Klicken</h3><p>Der flache Verschluss verbindet die Socken am Bündchen.</p></article>
+        <article><span>03</span><h3>Waschen</h3><p>Das Paar wandert gemeinsam durch Wäsche und Trocknung.</p></article>
+        <article><span>04</span><h3>Anziehen</h3><p>Kein Suchen, kein Sortieren. Öffnen und wieder anziehen.</p></article>
+      </div>
+    </section>
+
+    <section class="product-section" id="produkt">
+      <div class="product-card">
+        <div class="product-photo">
+          <div class="folded-socks">
+            <div class="folded one"><span></span></div>
+            <div class="folded two"><span></span></div>
+          </div>
+          <span class="product-label">PROTOTYPE EDITION</span>
+        </div>
+        <div class="product-info">
+          <span class="eyebrow">PAIR ORIGINAL</span>
+          <h2>Weisse Alltagssocken<br>mit Snap-System</h2>
+          <p>Weiche Baumwollsocken mit dezentem 9-mm-Druckknopf am Bündchen. Entwickelt für Menschen, die ihre Zeit lieber anders verbringen als mit Sockensortieren.</p>
+
+          <div class="price-row"><strong>CHF 59.90</strong><span>5 Paar</span></div>
+
+          <label for="size">Grösse</label>
+          <select id="size">
+            <option value="35-38">35–38</option>
+            <option value="39-42" selected>39–42</option>
+            <option value="43-46">43–46</option>
+          </select>
+
+          <label for="quantity">Anzahl 5er-Packs</label>
+          <div class="quantity-control">
+            <button id="minusQty" aria-label="Anzahl reduzieren">−</button>
+            <input id="quantity" type="number" value="1" min="1" max="10" />
+            <button id="plusQty" aria-label="Anzahl erhöhen">+</button>
+          </div>
+
+          <button class="add-button" id="addToCart">In den Warenkorb</button>
+          <p class="fineprint">Test-Shop – noch keine echte Zahlung oder Bestellung.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-strip">
+      <div><strong>9 mm</strong><span>kleiner Snap</span></div>
+      <div><strong>5 Paar</strong><span>pro Pack</span></div>
+      <div><strong>0 Min.</strong><span>Socken sortieren</span></div>
+      <div><strong>PAIR.</strong><span>zusammenbleiben</span></div>
+    </section>
+
+    <section class="family-section">
+      <div class="family-copy">
+        <span class="eyebrow">FÜR DEN FAMILIENALLTAG</span>
+        <h2>Wäscheberg? Kein Sockenchaos.</h2>
+        <p>PAIR ist besonders praktisch, wenn viele Socken gleichzeitig in der Wäsche landen. Später kann das System mit unterschiedlichen Snap-Farben für verschiedene Familienmitglieder erweitert werden.</p>
+      </div>
+      <div class="color-dots" aria-label="Beispiel für Familienfarben">
+        <span class="c1"></span><span class="c2"></span><span class="c3"></span><span class="c4"></span>
+      </div>
+    </section>
+
+    <section class="faq-section" id="faq">
+      <span class="eyebrow">FRAGEN & ANTWORTEN</span>
+      <h2>Einfach gedacht.</h2>
+      <details open><summary>Spürt man den Druckknopf beim Tragen?</summary><p>Der Verschluss ist mit 9 mm bewusst klein geplant und wird am oberen Bündchen positioniert. Beim Prototyp wird getestet, welche Position am angenehmsten ist.</p></details>
+      <details><summary>Kann man die Socken zusammen waschen?</summary><p>Genau dafür ist das Konzept gedacht. Die Verbindung sitzt nur am Bündchen, damit Wasser und Waschmittel weiterhin an beide Socken gelangen.</p></details>
+      <details><summary>Kann ich schon bestellen?</summary><p>Noch nicht. Diese Version ist ein funktionsfähiger Demo-Webshop für die Produktentwicklung. Die Bestellung wird erst aktiviert, wenn Produkt, Preis und Versand definiert sind.</p></details>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#top">PAIR<span class="dot">.</span></a>
+    <p>Socken, die zusammenbleiben.</p>
+    <p class="footer-note">Demo-Webshop · Schweiz · 2026</p>
+  </footer>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="cart-header">
+      <h2>Warenkorb</h2>
+      <button id="closeCart" aria-label="Warenkorb schliessen">×</button>
+    </div>
+    <div id="cartEmpty" class="cart-empty">Dein Warenkorb ist leer.</div>
+    <div id="cartItems"></div>
+    <div class="cart-footer" id="cartFooter" hidden>
+      <div class="cart-total"><span>Total</span><strong id="cartTotal">CHF 0.00</strong></div>
+      <button class="checkout-button" id="checkoutButton">Zur Kasse</button>
+      <p>Demo: Es wird keine Zahlung ausgelöst.</p>
+    </div>
+  </aside>
+  <div class="overlay" id="overlay"></div>
+
+  <div class="toast" id="toast">Zum Warenkorb hinzugefügt.</div>
+  <script src="script.js"></script>
+</body>
+</html>

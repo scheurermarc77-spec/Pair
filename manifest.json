@@ -1,0 +1,9 @@
+{
+  "name":"PAIR – Socken, die zusammenbleiben",
+  "short_name":"PAIR",
+  "start_url":"./index.html",
+  "display":"standalone",
+  "background_color":"#f6f5f1",
+  "theme_color":"#111111",
+  "icons":[]
+}
