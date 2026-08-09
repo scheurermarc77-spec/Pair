@@ -14,7 +14,7 @@ function renderCart(){
   $('cartCount').textContent=cart.reduce((s,i)=>s+i.quantity,0);
   $('cartEmpty').style.display=cart.length?'none':'block';
   $('cartFooter').hidden=!cart.length;
-  $('cartItems').innerHTML=cart.map((i,index)=>`<div class="cart-item"><div class="cart-item-icon">PAIR.</div><div><h4>PAIR Original · 5 Paar</h4><p>Grösse ${i.size} · ${i.quantity} × CHF ${price.toFixed(2)}</p></div><button class="remove-item" onclick="removeItem(${index})">×</button></div>`).join('');
+  $('cartItems').innerHTML=cart.map((i,index)=>`<div class="cart-item"><div class="cart-item-icon">TWOCLEX.</div><div><h4>TWOCLEX Original · 5 Paar</h4><p>Grösse ${i.size} · ${i.quantity} × CHF ${price.toFixed(2)}</p></div><button class="remove-item" onclick="removeItem(${index})">×</button></div>`).join('');
   $('cartTotal').textContent='CHF '+cart.reduce((s,i)=>s+i.quantity*price,0).toFixed(2);
 }
 window.removeItem=index=>{cart.splice(index,1);renderCart()};

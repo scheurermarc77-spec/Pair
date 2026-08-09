@@ -1,11 +1,11 @@
-PAIR Demo-Webshop – mit Logo
+TWOCLEX Demo-Webshop – mit Logo
 ============================
 
 Dateien:
 - index.html      Hauptseite
 - styles.css      Gestaltung
 - script.js       Warenkorb-Funktion
-- logo.svg        PAIR-Logo für Kopf- und Fussbereich
+- logo.svg        TWOCLEX-Logo für Kopf- und Fussbereich
 - icon-192.png    App-/Browser-Icon
 - icon-512.png    App-Icon
 - manifest.json   Grundlage für Installation als Web-App

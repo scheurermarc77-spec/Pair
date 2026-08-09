@@ -1,10 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 120" role="img" aria-label="PAIR logo">
-  <g fill="none" stroke="#000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-    <path fill="#fff" d="M28 13h58v48c0 13-7 24-18 31L45 107c-13 8-29 3-36-9-7-12-3-27 8-35l11-8V13z"/>
-    <path fill="#fff" d="M61 8h58v48c0 13-7 24-18 31l-23 15c-13 8-29 3-36-9-7-12-3-27 8-35l11-8V8z"/>
-    <circle cx="76" cy="27" r="7" fill="#000"/>
-    <circle cx="94" cy="27" r="7" fill="#fff"/>
-    <path d="M27 53h34M60 48h58"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 120" role="img" aria-label="TWOCLEX logo">
+  <rect width="620" height="120" fill="none"/>
+  <g fill="#000">
+    <text x="310" y="80" text-anchor="middle" font-family="Arial Black,Arial,Helvetica,sans-serif" font-size="72" font-weight="900" letter-spacing="5">TWOCLEX</text>
   </g>
-  <text x="145" y="82" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="800" letter-spacing="3" fill="#000">PAIR</text>
 </svg>
